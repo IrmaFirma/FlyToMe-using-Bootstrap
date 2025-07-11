@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fly To Me</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <style>
+
+
+
+  </style>
+</head>
+
+<body>
+<!-- navbar code -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="airplane.png" width="30" height="30" class="d-inline-block align-top" alt="">
+      Fly To Me
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-
+target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Services</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Flight Code" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Fly</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!--First Section-->
+<div class="px-4 pt-5 my-5 text-center border-bottom">
+  <h1 class="display-4 fw-bold">Fly To Me</h1>
+  <div class="col-lg-6 mx-auto">
+    <p class="lead mb-4">At Fly To Me, we believe in bringing people closer. No matter where.</p>
+    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+      <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Anywhere</button>
+      <button type="button" class="btn btn-outline-secondary btn-lg px-4">Everywhere</button>
+    </div>
+  </div>
+  <div class="overflow-hidden" style="max-height: 30vh;">
+    <div class="container px-5">
+      <img src="headlineimage.webp" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Airplane image" width="700" height="500" loading="lazy">
+    </div>
+  </div>
+</div>
+<!--Second Section-->
+<div class="container px-4 py-5" id="hanging-icons">
+    <h3 class="pb-2">Why choose Fly To Me?</h3>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="col d-flex align-items-start">
+        <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>
+        </div>
+        <div>
+          <h2>Love That Travels</h2>
+          <p>Send more than words. Send presence. Bring hearts closer, no matter the miles.</p>
+          <a href="#" class="btn btn-primary">
+            Learn More
+          </a>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#cpu-fill"></use></svg>
+        </div>
+        <div>
+          <h2>Straight to You</h2>
+          <p>Turn distance into devotion. Surprise them with a gift or a visit they’ll never forget.</p>
+          <a href="#" class="btn btn-primary">
+            Services
+          </a>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#tools"></use></svg>
+        </div>
+        <div>
+          <h2>Texting Isn’t Enough</h2>
+          <p>Fly To Me turns longing into action. Deliver connection in its most meaningful form.</p>
+          <a href="#" class="btn btn-primary">
+            Try Yourself
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Image Carousel-->
+  <div class="container d-flex justify-content-center align-items-center">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-70" src="love.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block" src="love.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block" src="love.jpg" alt="Third slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only"></span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only"></span>
+      </a>
+    </div>
+</div>
+<!--footer element-->
+<div class="container">
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"> 
+  <p class="col-md-4 mb-0 text-body-secondary">© 2025 Firma, Inc</p>
+  <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none" aria-label="Bootstrap"> 
+    <svg class="bi me-2" width="40" height="32" aria-hidden="true"><use xlink:href="#bootstrap"></use></svg> 
+  </a> 
+    <ul class="nav col-md-4 justify-content-end"> 
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li> 
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li> 
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Services</a></li> 
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Search</a></li> 
+     </ul> 
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>
